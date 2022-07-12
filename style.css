@@ -1,0 +1,27 @@
+body {
+  background-color: bisque;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.button_modal {
+  background-color: rgb(108, 60, 153);
+  border-radius: 5px;
+  padding: 1rem;
+  position: relative;
+}
+.modal_stye {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 1rem;
+}
+.invisible {
+  display: none;
+}
